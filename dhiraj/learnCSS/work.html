@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <style>
+        *{
+            margin: 0 20px 20px 25px;
+            padding: 0;
+        }
+        nav{
+            margin: 0 ;
+            padding: 0;
+        }
+        .container{
+            position: relative;
+            display: flex;
+        }
+        .hero{
+            display: inline-block;
+            height: 30vh;
+            width: 40%;
+            align-items: center;
+        }
+        .hero.img{
+            height: 512px;
+            width: 514px;
+        }
+        .hero_content{
+            display: inline-block;
+            height: 50vh;
+            width: 60%;
+        }
+        .tag{
+            font-size: 40px;
+            position: absolute;
+            top: 20%;
+
+        }
+        h1{
+            font-size: 90px;
+            position: absolute;
+            top: 30%;
+        }
+        p{
+            position: absolute;
+            top: 70%;
+            font-size: 30px;
+        }
+        .explore_btn{
+            position: absolute;
+            top: 80%;
+            font-size: 15px;
+            height: 43px;
+            width: 100px;
+            background-color: rgb(218, 188, 16);
+        }
+        .feature{
+            position: relative;
+            display: flex;
+        }
+        .divider{
+            border: 2px solid gray;
+        }
+        .box1{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
+        .grid{
+            display: inline-grid;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
+            
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="https://practice-project-html-css.vercel.app/Project%205/images/logo.png" alt="">
+        </nav>
+    </header>
+    <div class="container">
+        <div class="hero">
+            <img src="https://practice-project-html-css.vercel.app/Project%205/images/hero_image.png" alt="hero">
+        </div><div class="hero_content">
+            <div class="tag">50% of on All product</div>
+            <h1>Enjoy Your<br> Delicious Food</h1>
+            <p>Lorem ipsum dolor sit.</p>
+            <button class="explore_btn">Explore Now</button>
+        </div>
+    </div>
+    <section class="feature">
+        <div class="feature">
+            <img src="https://practice-project-html-css.vercel.app/Project%205/icons/discount.png" alt="">
+            <div class="feature_content">
+                <h3>Discount Voucher</h3>
+                "loremnbc fdfjjdhf jdsjcd"
+            </div>
+        </div>
+        <div class="feature">
+            <img src="https://practice-project-html-css.vercel.app/Project%205/icons/fresh.png" alt="">
+            <div class="feature_content">
+                <h3>Fresh Healthy Food</h3>
+                "jdbjdbvjdhgfcmxcdjfd"
+            </div>
+        </div>
+        <div class="feature">
+            <img src="https://practice-project-html-css.vercel.app/Project%205/icons/delivery.png" alt="">
+            <div class="feature content">
+                <h3>Fast Home Delivery</h3>
+               " Lorem ipsum dolor sit amet."
+            </div>
+        </div>
+    </section>
+    <div class="divider"></div>
+    <div class="menu">
+        <div class="box1">Our menu</div>
+        <h2>Explore Our Menu</h2>
+        <div class="grid">
+            <div class="item">
+                <img class="grid_image" src="https://practice-project-html-css.vercel.app/Project%205/images/grid_image1.png" alt="image 1">
+            </div>
+            <div class="item">
+                <img class="grid_image" src="https://practice-project-html-css.vercel.app/Project%205/images/grid_image2.png" alt="image 2">
+            </div>
+            <div class="item">
+                <img class="grid_image" src="https://practice-project-html-css.vercel.app/Project%205/images/grid_image3.png" alt="image 3">
+            </div>
+            <div class="item">
+                <img class="grid_image" src="https://practice-project-html-css.vercel.app/Project%205/images/grid_image4.png" alt="image 4">
+            </div>
+            <div class="item">
+                <img class="grid_image" src="https://practice-project-html-css.vercel.app/Project%205/images/grid_image5.png" alt="inage5">
+            </div>
+            <div class="item">
+                <img class="grid_image" src="https://practice-project-html-css.vercel.app/Project%205/images/grid_image6.png" alt="image 6">
+            </div>
+            <div class="item">
+                <img class="grid_image" src="https://practice-project-html-css.vercel.app/Project%205/images/grid_image7.png" alt="image 7">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

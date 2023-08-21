@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+       
+
+        .up {
+            display: flex;
+            background-color: rgb(143, 148, 148);
+
+        }
+
+        .right {
+            position: relative;
+            width: 50%;
+            font-size: 20px;
+            top: 29px;
+        }
+
+        .left {
+            display: flex;
+            width: 50%;
+            margin: 40px;
+            font-size: 50px;
+
+
+        }
+
+        .right li {
+            display: inline-block;
+            margin: 40px;
+            cursor: pointer;
+
+        }
+
+        .right li:hover {
+            color: rgb(205, 108, 60);
+        }
+
+        .main {
+            width: 100%;
+            position: static;
+            background-image: url("https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?cs=srgb&dl=pexels-craig-adderley-1563356.jpg&fm=jpg");
+            background-repeat: no-repeat;
+            background-position: cover;
+            height: 980px;
+        }
+
+        h1 {
+            text-align: center;
+            position: relative;
+            top: 240px;
+            font-size: 110px;
+        }
+
+        #search {
+            position: relative;
+            top: 270px;
+            left: 852px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="up">
+        <div class="left">PLATINA</div>
+        <div class="right">
+            <ul>
+                <li>HOME</li>
+                <li>FALILITIES</li>
+                <li>SERVICE</li>
+                <li>BOOK</li>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <h1>Enjoy Holidays with<br> affordable Hotels</h1>
+        <button id="search">START SEARCHING</button>
+
+    </div>
+
+    <script src="harry.js"></script>
+</body>
+
+</html>
