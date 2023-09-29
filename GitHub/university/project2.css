@@ -5,26 +5,48 @@
 body{
  width: 100%;
  height: auto;
+ line-height: 1.5;
 }
-header #navbar{
-    height: 170px;
-    width: 100%;
-    background-color: white;
+header {
     display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    gap: 2.5rem;
 }
-#navbar > img{
-    width: 200px;
-    height: 125px;
-    margin-left: 150px;
-    margin-top: -13px;
+#navbar{
+    width: 58%;
+    margin-left: 180px;
 }
-#navbar>h1{
-    margin-top: 25px;
-    font-size: 50px;
+#navbar i{ 
+    font-size: 2.5rem;
+    color: rgb(255,225,0);
+}
+#navbar span{
+    font-size: 1.9rem; 
+    font-weight: 800;
+}
+
+.phone{
+    margin-top: 15px;
     
 }
+.phone i{
+font-size: 1.5rem;
+color: var(--color-secondary) ;
+color: rgb(255, 225, 0);
+
+}
+.phone span{
+    font-size: 20px;
+}
+.nav-btn button{
+    font-size: 20px;
+    margin: 10px;
+    margin-top: 20px;
+    border-style: none;
+    background-color: rgb(255,225,0);
+}
 .nav{
-    margin-top: -43px;
     word-spacing: 20px;
     background-color: blue;
     height: 43px;
@@ -69,10 +91,10 @@ header #navbar{
     border-radius: 9px;
     font-weight: 600;
     font-size: 20px;
-    overflow: hidden;
+    border-style: none;
 }
 button:hover{
-    background-color: rgb(236, 236, 0);
+    background-color: rgb(225, 225, 0);
 }
 #mainsection>#enroll{
     margin-left: 10px;
